@@ -1,0 +1,463 @@
+.container {width: 80%; margin: 0 auto; height: auto}
+.row {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+[class*='col-']{
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+.height {
+    height: 200px;
+}
+.round {
+    background: red;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    margin: 0 0 0 35px;
+}
+.upd {
+    background: red;
+    height: 100px;
+    width: 200px;
+    border-radius: 100px 100px 0 0;
+    margin: 40px 0 0 35px;
+}
+.downd {
+    background: red;
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 100px 100px ;
+    margin: 50px 0 0 35px;
+}
+.rightd {
+    background: red;
+    height: 200px;
+    width: 100px;
+    border-radius: 0 100px 100px  0  ;
+    margin: 0 0 0 100px;
+}
+.leftd {
+    background: red;
+    height: 200px;
+    width: 100px;
+    border-radius: 100px 0 0 100px;
+    margin: 0 0 0 60px;
+}
+
+.round-1 {
+    background: red;
+    height: 95px;
+    width: 100px;
+    border-radius: 50px 0 0 0 ;
+    margin: 0 0 0 20px;
+}
+.round-2 {
+    background: red;
+    height: 95px;
+    width: 100px;
+    border-radius: 0 50px  0 0 ;
+    margin: 0 0 0 10px;
+}
+.round-3 {
+    background: red;
+    height: 95px;
+    width: 100px;
+    border-radius:  0 0 0 50px ;
+    margin: 10px 0 0 20px;
+}
+.round-4 {
+    background: red;
+    height: 95px;
+    width: 100px;
+    border-radius:  0 0 50px 0  ;
+    margin: 10px 0 0 10px;
+}
+.a-1 {
+    background: red;
+    height: 150px;
+    width: 10px;
+    float: left;
+    margin: 0 0 0 90px;
+    transform: skew(-25deg);
+}
+.a-2 {
+    background: red;
+    height: 150px;
+    width: 10px;
+    margin: 0 0 0 65px;
+    float: left;
+    transform: skew(25deg);
+}
+.a-3 {
+    background: red;
+    height: 10px;
+    width: 100px;
+    margin: 90px 0 0 82px;
+}
+.bbb-1 {
+    border: 10px solid red;
+    height: 70px;
+    width: 50px;
+    border-radius: 0 50px 50px 0;
+    margin: 0 0 0 100px;
+}
+.bbb-2 {
+    border: 10px solid red;
+    height: 70px;
+    width: 50px;
+    border-radius: 0 50px 50px 0;
+    margin: 0 0 0 100px;
+}
+.ccc {
+    border: 10px solid red;
+    height: 150px;
+    width: 75px;
+    border-radius: 75px 0 0 75px;
+    margin: 10px 0 0 70px;
+    border-right: none;
+}
+.ddd {
+    border: 10px solid red;
+    height: 150px;
+    width: 75px;
+    border-radius: 0 75px 75px 0;
+    margin: 10px 0 0 80px;
+}
+.eee {
+    border: 10px solid red;
+    height: 150px;
+    width: 75px;
+    border-right: none;
+    margin: 10px 0 0 80px;
+}
+.eee-2 {
+    height: 10px;
+    width: 75px;
+    background: red;
+    margin: 80px 0px 0 80px;
+    float: none;
+    border: none;
+}
+.fff{
+    border: 10px solid red;
+    height: 150px;
+    width: 75px;
+    border-right: none;
+    border-bottom: none;
+    margin: 10px 0 0 70px;
+}
+.fff-2{
+    height: 10px;
+    width: 65px;
+    background: red;
+    margin: 80px 0px 0 80px;
+    float: none;
+    border: none;
+}
+.ggg-1 {
+    border: 10px solid red;
+    height: 150px;
+    width: 75px;
+    border-radius: 75px 0 0 75px;
+    margin: 10px 0 0 70px;
+    border-right: none;
+
+}
+.ggg-2 {
+    border-top: 10px solid red;
+    height: 70px;
+    width: 40px;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    margin: -80px 0 0 145px;
+}
+.hhh-1 {
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    width: 75px;
+    height: 150px;
+    margin: 20px 0 0 80px;
+}
+.hhh-2 {
+    background: red;
+    width: 75px;
+    height: 10px;
+    margin: -75px 0 0px 90px;
+}
+.iii-1 {
+    width: 10px;
+    height: 150px;
+    background: red;
+    margin: 22px auto;
+}
+
+.jjj-1 {
+    width: 10px;
+    height: 75px;
+    background: red;
+    margin: 22px 0 0 120px;
+    border: none;
+}
+
+.jjj-2 {
+    border: 10px solid red;
+    height: 50px;
+    width: 70px;
+    border-radius: 0 0 100px 100px;
+    margin: 95px 0 0 60px;
+    border-top: none;
+    float: none;
+}
+.kkk-1 {
+    width: 10px;
+    height: 150px;
+    background: red;
+    margin: 25px 0 0 80px;
+}
+.kkk-2 {
+    width: 10px;
+    height: 70px;
+    background: red;
+    transform: skew(45deg);
+    margin: -68px 0 0 114px;
+}
+.kkk-3 {
+    width: 10px;
+    height: 70px;
+    background: red;
+    transform: skew(-45deg);
+    margin: -135px 0 0 114px;
+}
+.LLL-1 {
+    width: 50px;
+    height: 130px;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+    margin: 30px 0 0 90px;
+}
+.mmm-1 {
+    width: 100px;
+    height: 130px;
+    border-right: 10px solid red;
+    border-left: 10px solid red;
+    margin: 30px 0 0 70px;
+}
+.mmm-2 {
+    width: 10px;
+    height: 60px;
+    background: red;
+    transform: skew(42deg);
+    margin: -130px 0 0 100px;
+}
+.mmm-3 {
+    width: 10px;
+    height: 60px;
+    background: red;
+    transform: skew(-42deg);
+    margin: -60px 0 0 153px;
+}
+.nnn-1 {
+    width: 100px;
+    height: 130px;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    margin: 30px 0 0 80px;
+}
+.nnn-2 {
+    width: 10px;
+    height: 130px;
+    background: red;
+    transform: skew(38deg);
+    margin: -130px 0 0 135px;
+}
+.ooo-1 {
+    width: 150px;
+    height: 150px;
+    border: 10px solid red;
+    border-radius: 50%;
+    margin: 15px 0 0 50px;
+}
+.ppp-1 {
+    background: red;
+    height: 150px;
+    width: 10px;
+    margin: 20px 0 0 80px;
+}
+.ppp-2 {
+    width: 60px;
+    height: 60px;
+    border: 10px solid red;
+    border-radius: 0 40px 40px 0;
+    margin: -150px 0 0 80px;
+}
+.qqq-1 {
+    border: 10px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px 0 0 50px;
+}
+.qqq-2 {
+    background: red;
+    width: 20px;
+    height: 50px;
+    transform: skew(60deg);
+    margin: -40px 0 0 175px;
+}
+.rrr-1 {
+    background: red;
+    height: 150px;
+    width: 10px;
+    margin: 20px 0 0 80px;
+}
+.rrr-2 {
+    width: 60px;
+    height: 60px;
+    border: 10px solid red;
+    border-radius: 0 40px 40px 0;
+    margin: -150px 0 0 80px;
+}
+.rrr-3 {
+    background: red;
+    width: 15px;
+    height: 60px;
+    transform: skew(50deg);
+    margin: 0px 0 0 115px;
+}
+.sss-1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50% 0 0 50%;
+    border: 10px solid red;
+    border-right: none;
+    margin: 5px 0 0 80px;
+}
+.sss-2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 0 50% 50% 0;
+    border: 10px solid red;
+    border-left: none;
+    margin: -10px 0 0 120px;
+}
+.ttt-1 {
+    background: red;
+    width: 150px;
+    height: 10px;
+    margin: 10px 0 0 60px;
+}
+.ttt-2 {
+    background: red;
+    height: 150px;
+    width: 10px;
+    margin: 0 0 0 130px;
+}
+
+.uuu-1 {
+    border: 10px solid red;
+    width: 100px;
+    height: 150px;
+    border-radius: 0 0 40% 40%;
+    border-top: none;
+    margin: 10px 0 0 70px;
+}
+
+.vvv-1 {
+    width: 10px;
+    background: red;
+    height: 100px;
+    transform: skew(35deg);
+    margin: 45px 0 0 105px;
+}
+.vvv-2 {
+    width: 10px;
+    background: red;
+    height: 100px;
+    transform: skew(-35deg);
+    margin: -100px 0px 0 175px;
+}
+.www-1 {
+    border: 10px solid red;
+    width: 100px;
+    height: 150px;
+    border-radius: 0 0 80% 40%;
+    border-top: none;
+    margin: 10px 0 0 15px;
+}
+
+.www-2 {
+    border: 10px solid red;
+    width: 100px;
+    height: 150px;
+    border-radius: 0 0 40% 80%;
+    border-top: none;
+    margin: -160px 0px 0 125px;
+}
+.xxx-1 {
+    width: 10px;
+    background: red;
+    height: 130px;
+    transform: skew(50deg);
+    margin: 40px 0px 30px 125px
+}
+.xxx-2 {
+    width: 10px;
+    background: red;
+    height: 130px;
+    transform: skew(-50deg);
+    margin: -160px 0px 0 125px;
+}
+.yyy-1 {
+    width: 10px;
+    background: red;
+    height: 80px;
+    transform: skew(35deg);
+    margin: 40px 0 20px 112px;
+}
+.yyy-2 {
+    width: 10px;
+    background: red;
+    height: 80px;
+    transform: skew(-35deg);
+    margin: -100px 0px 0 168px;
+}
+.yyy-3 {
+    height: 80px;
+    width: 10px;
+    background: red;
+    margin: 0 0 0 140px;
+}
+.zzz-1 {
+    width: 150px;
+    height: 100px;
+    border-top: 10px solid red;
+    border-bottom: 10px solid red;
+    margin: 50px 0 0 50px;
+}
+.zzz-2 {
+    height: 102px;
+    width: 15px;
+    background: red;
+    transform: skew(-53deg);
+    margin: -112px 0 0 118px;
+}
